@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    padding: 2% 7.2%;
+    justify-content: space-between;
+        
+    .header-name{     
+        font-size: 35px; 
+        font-weight: bold;  
+    }
+    
+    .header-link{       
+        display: flex;  
+        width: 300px;
+        justify-content: space-between;
+        
+        p{
+            border-bottom: 2px solid white;
+        }
+        p:hover{
+            border-bottom: 2px solid #f7022b;
+            transition: border-bottom 1s ease;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
