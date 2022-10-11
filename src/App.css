@@ -2,6 +2,13 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+body {
+  background-image: url("./assets/background.svg");
+  background-size: 100% 100%;
+  backdrop-filter: blur(8px);
+  background-image-webkit-filter: blur(8px);
+}
+
 .highlight {
   color: #f7022b;
 }
