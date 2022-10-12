@@ -4,9 +4,8 @@
 
 body {
   background-image: url("./assets/background.svg");
-  background-size: 100% 100%;
+  background-size: auto;
   backdrop-filter: blur(8px);
-  background-image-webkit-filter: blur(8px);
 }
 
 .highlight {
