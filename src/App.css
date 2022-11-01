@@ -1,12 +1,7 @@
 * {
   font-family: "Roboto Condensed", sans-serif;
   -webkit-tap-highlight-color: transparent;
-}
-
-body {
-  background-image: url("./assets/background.svg");
-  background-size: auto;
-  backdrop-filter: blur(8px);
+  color: white;
 }
 
 .highlight {

@@ -12,8 +12,6 @@ const Header = () => (
       <p>Projects </p>
       <p>About </p>
     </div>
-
-    <div className="hr-line"></div>
   </div>
 );
 
