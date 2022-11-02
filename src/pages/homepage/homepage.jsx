@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "@mui/material/Button";
 import "./homepage.scss";
 
 const HomePage = () => (
@@ -15,8 +15,13 @@ const HomePage = () => (
         Currently pursuing Bachelor of Technology from M.J.P. Rohilkhand
         University, Bareilly.
       </p>
-
-      <button>Resume</button>
+      <Button
+        variant="contained"
+        href="https://github.com/arjunsharma1152/arjunsharma1152"
+        className="resume-button"
+      >
+        Resume
+      </Button>
     </div>
 
     <div className="user-image">
