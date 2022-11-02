@@ -10,24 +10,10 @@ const particlesConfig = {
   },
   fpsLimit: 120,
   interactivity: {
-    events: {
-      onClick: {
-        enable: true,
-        mode: "push",
-      },
-      onHover: {
-        enable: true,
-        mode: "repulse",
-      },
-      resize: true,
-    },
     modes: {
-      push: {
-        quantity: 4,
-      },
       repulse: {
-        distance: 200,
-        duration: 0.4,
+        distance: 800,
+        duration: 5,
       },
     },
   },
@@ -37,30 +23,17 @@ const particlesConfig = {
     },
     links: {
       color: "#ffffff",
-      distance: 150,
+      distance: 170,
       enable: true,
       opacity: 0.2,
       width: 2,
     },
-    collisions: {
-      enable: true,
-    },
     move: {
-      directions: "none",
       enable: true,
-      outModes: {
-        default: "bounce",
-      },
-      random: false,
-      speed: 3,
-      straight: false,
+      speed: 4,
     },
     number: {
-      density: {
-        enable: true,
-        area: 800,
-      },
-      value: 80,
+      value: 70,
     },
     opacity: {
       value: 0.1,
@@ -72,7 +45,6 @@ const particlesConfig = {
       value: { min: 1, max: 5 },
     },
   },
-  detectRetina: true,
 };
 
 export default particlesConfig;
