@@ -1,11 +1,9 @@
 import React from "react";
-
-import "./footer.scss";
-
+import "./social-links.scss";
 import { Icon } from "@iconify/react";
 
-const Footer = () => (
-  <div className="footer-container">
+const SocialLinks = () => (
+  <div className="links-container">
     <a
       href="https://linkedin.com/in/arjunsharma11"
       target="_blank"
@@ -83,4 +81,4 @@ const Footer = () => (
   </div>
 );
 
-export default Footer;
+export default SocialLinks;
