@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import "./homepage.scss";
+import SocialLinks from "../../components/social-links/social-links";
 
 const HomePage = () => (
   <div className="homepage">
@@ -19,9 +20,11 @@ const HomePage = () => (
         variant="contained"
         href="https://github.com/arjunsharma1152/arjunsharma1152"
         className="resume-button"
+        target="_blank"
       >
         Resume
       </Button>
+      <SocialLinks />
     </div>
 
     <div className="user-image">

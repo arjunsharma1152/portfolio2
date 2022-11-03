@@ -9,42 +9,96 @@ const particlesConfig = {
     },
   },
   fpsLimit: 120,
-  interactivity: {
-    modes: {
-      repulse: {
-        distance: 800,
-        duration: 5,
+  particles: {
+    number: {
+      value: 100,
+      density: {
+        enable: true,
+        value_area: 800,
       },
     },
-  },
-  particles: {
     color: {
-      value: "#fffeee",
-    },
-    links: {
-      color: "#ffffff",
-      distance: 170,
-      enable: true,
-      opacity: 0.2,
-      width: 2,
-    },
-    move: {
-      enable: true,
-      speed: 4,
-    },
-    number: {
-      value: 70,
-    },
-    opacity: {
-      value: 0.1,
+      value: "#ffffff",
     },
     shape: {
       type: "circle",
+      stroke: {
+        width: 0,
+        color: "#000000",
+      },
+      polygon: {
+        nb_sides: 5,
+      },
+    },
+    opacity: {
+      value: 0.2,
+      random: false,
+      anim: {
+        enable: false,
+        speed: 1,
+        opacity_min: 0.1,
+        sync: false,
+      },
     },
     size: {
-      value: { min: 1, max: 5 },
+      value: 5,
+      random: true,
+      anim: {
+        enable: false,
+        speed: 40,
+        size_min: 1,
+        sync: false,
+      },
+    },
+    move: {
+      enable: true,
+      speed: 1.5,
+      direction: "none",
+      random: false,
+      straight: false,
+      out_mode: "out",
+      bounce: false,
+      attract: {
+        enable: false,
+        rotateX: 600,
+        rotateY: 1200,
+      },
     },
   },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: {
+        enable: true,
+        mode: "repulse",
+      },
+      onclick: {
+        enable: true,
+        mode: "push",
+      },
+      resize: true,
+    },
+    modes: {
+      grab: {
+        distance: 400,
+        line_linked: {
+          opacity: 1,
+        },
+      },
+      bubble: {
+        distance: 400,
+        size: 40,
+        duration: 2,
+        opacity: 8,
+        speed: 3,
+      },
+      repulse: {
+        distance: 500,
+        duration: 0.4,
+      },
+    },
+  },
+  retina_detect: true,
 };
 
 export default particlesConfig;
