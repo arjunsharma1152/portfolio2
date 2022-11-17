@@ -18,7 +18,7 @@ const HomePage = () => (
       </p>
       <Button
         variant="contained"
-        href="https://bit.ly/3hFGKt6"
+        href="https://bit.ly/3Gp9ctK"
         className="resume-button"
         target="_blank"
       >
