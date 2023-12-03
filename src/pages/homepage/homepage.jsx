@@ -18,7 +18,7 @@ const HomePage = () => (
       </p>
       <Button
         variant="contained"
-        href="https://drive.google.com/file/d/1T9bZqgS4_oIiornsbt0eBMM1qTJgioG0/view?usp=sharing"
+        href="https://drive.google.com/file/d/1P8HrF5RQJTD5Sa0wMSZmH4aG-Mo6-sM8/view?usp=drive_link"
         className="resume-button"
         target="_blank"
       >
